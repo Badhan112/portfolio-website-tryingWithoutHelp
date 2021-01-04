@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin: 2%;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    background-color: rgba(240, 236, 236);
+    text-align: justify;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+#orange-heading{
+    background-image: linear-gradient(45deg,rgb(165, 201, 35), rgb(245, 232, 52));
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.5);
+}
+#blue-heading{
+    background-image: linear-gradient(45deg,rgb(0, 204, 255), rgb(59, 59, 211));
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.5);
+}
+img{
+    width: 95%;
+}
+h1{
+    font-size: 50px;
+}
+.orange-highlight{
+    color: orange;
+}
+.blue-highlight{
+    color: blue;
+}
+#top-banner{
+    background-image: url("../images/top-banner.png"); 
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 40px;
+}
+#dream-area{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 15px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px; 
+}
+#download-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(0, 204, 255), rgb(19, 119, 153));
+    padding: 15px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px; 
+}
+#experience-area{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    background-color: rgba(240, 236, 236);
+    height: 350px;
+    box-shadow: 5px 5px 30px grey;
+}
+.experience-details{
+    background-color: white;
+    margin-right: 30px;
+}
+.exp-heading{
+    margin-left: 40px;
+}
+.full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(252, 198, 99), rgb(236, 43, 9));
+    border-image-slice: 1;
+}
+.baby-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(99, 165, 252), rgb(9, 51, 236));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    background-color: transparent;
+}
